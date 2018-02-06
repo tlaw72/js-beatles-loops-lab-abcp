@@ -2,7 +2,7 @@ let musicians = ["John Lennon", "Paul McCartney", "George Harrison", "Ringo Star
 let instruments = ["Guitar", "Bass Guitar", "Lead Guitar", "Drums"];
 
 
-let theBeatlesPlay = new function (musicians, instruments) {
+function theBeatlesPlay (musicians, instruments) {
   for (let i=0; i<3; i++) {
     let phrase = [];
     phrase.push(`"${musicians.i} plays  ${instruments.i}."`);
