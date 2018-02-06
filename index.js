@@ -7,7 +7,7 @@ function theBeatlesPlay (musicians, instruments) {
     let phrase = [];
     phrase.push(`"${musicians.i} plays  ${instruments.i}."`);
   }
-};
+}
 
 const facts = [
   "He was the last Beatle to learn to drive",
@@ -16,14 +16,14 @@ const facts = [
   "He hated the sound of his own voice"
 ];
 
-let johnLennonFacts = new function (facts) {
+function johnLennonFacts(facts) {
   while (facts.length == 4) {
     let phrase = [];
     phrase.push(`"${facts[0]}!!!"`)
   }
 }
 
-let iLoveTheBeatles = new function (number) {
+function iLoveTheBeatles (number) {
   let phrase = [];
   do {phrase.push("I love the Beatles!") }
     while (number<15)
